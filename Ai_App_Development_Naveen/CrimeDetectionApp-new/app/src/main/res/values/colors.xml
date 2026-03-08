@@ -2,4 +2,22 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Warm Color Palette -->
+    <color name="primary_warm">#E65100</color> <!-- Deep Orange 900 -->
+    <color name="primary_light_warm">#FF833A</color>
+    <color name="primary_dark_warm">#AC1900</color>
+
+    <color name="secondary_warm">#FFB300</color> <!-- Amber 600 -->
+    <color name="secondary_light_warm">#FFE54C</color>
+    <color name="secondary_dark_warm">#C68400</color>
+
+    <color name="tertiary_warm">#BF360C</color> <!-- Deep Orange 900 -->
+
+    <color name="background_warm">#FFF3E0</color> <!-- Orange 50 -->
+    <color name="surface_warm">#FFF8E1</color> <!-- Amber 50 -->
+
+    <!-- Dark variants for warmer dark mode -->
+    <color name="primary_dark_mode">#FFB74D</color> <!-- Orange 300 -->
+    <color name="secondary_dark_mode">#FFD54F</color> <!-- Amber 300 -->
 </resources>

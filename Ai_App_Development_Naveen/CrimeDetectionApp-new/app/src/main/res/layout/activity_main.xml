@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0F172A">
+    android:background="?android:attr/windowBackground">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="AI Crime Detection"
-            android:textColor="#FFFFFF"
+            android:textColor="?android:attr/textColorPrimary"
             android:textSize="22sp"
             android:textStyle="bold"
             android:gravity="center"
@@ -27,7 +27,8 @@
             android:layout_height="350dp"
             android:layout_marginTop="16dp"
             app:cardCornerRadius="16dp"
-            app:cardElevation="8dp">
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="?attr/colorSurface">
 
             <androidx.camera.view.PreviewView
                 android:id="@+id/previewView"
@@ -41,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Status: READY"
-            android:textColor="#22C55E"
+            android:textColor="?attr/colorTertiary"
             android:textSize="18sp"
             android:layout_marginTop="16dp"/>
 
@@ -50,7 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Recording: 00:00"
-            android:textColor="#CBD5E1"
+            android:textColor="?android:attr/textColorSecondary"
             android:textSize="16sp"
             android:layout_marginTop="8dp"/>
 
@@ -59,8 +60,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Start Recording"
-            android:textColor="#FFFFFF"
-            android:backgroundTint="#2563EB"
+            android:textColor="?attr/colorOnPrimary"
+            android:backgroundTint="?attr/colorPrimary"
             android:layout_marginTop="20dp"
             android:padding="14dp"/>
 
@@ -69,8 +70,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Upload Clip"
-            android:textColor="#FFFFFF"
-            android:backgroundTint="#9333EA"
+            android:textColor="?attr/colorOnSecondary"
+            android:backgroundTint="?attr/colorSecondary"
             android:layout_marginTop="12dp"
             android:padding="14dp"/>
 
@@ -80,7 +81,7 @@
             android:layout_marginTop="24dp"
             app:cardCornerRadius="16dp"
             app:cardElevation="6dp"
-            app:cardBackgroundColor="#1E293B">
+            app:cardBackgroundColor="?attr/colorSurface">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -93,7 +94,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Prediction: -"
-                    android:textColor="#FFFFFF"
+                    android:textColor="?android:attr/textColorPrimary"
                     android:textSize="18sp"
                     android:textStyle="bold"/>
 
@@ -103,6 +104,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="8dp"
                     android:max="100"
+                    android:progressTint="?attr/colorPrimary"
                     android:layout_marginTop="12dp"/>
 
                 <TextView
@@ -110,7 +112,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Confidence: -"
-                    android:textColor="#CBD5E1"
+                    android:textColor="?android:attr/textColorSecondary"
                     android:layout_marginTop="8dp"/>
 
             </LinearLayout>
